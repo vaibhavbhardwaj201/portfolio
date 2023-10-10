@@ -13,6 +13,9 @@ const skills = [
   { skill: "Git" },
   { skill: "GitHub" },
   { skill: "Redux" },
+  { skill: "Node.js" },
+  { skill: "MongoDB" },
+  { skill: "SQL" },
 ]
 
 const AboutSection = () => {
@@ -39,7 +42,7 @@ const AboutSection = () => {
             <br />
             <p>
               I am a student of Vilnius Gediminas Technical University, Vilnius.
-              Currently I&apos;m in my first year of Bachelor in Information Technology.
+              Currently I&apos;m in my second year of Bachelor&apos; in Information Technology.
             </p>
             <br />
             <p>

@@ -6,25 +6,25 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Movie App",
+    name: "Blog App",
     description:
-      "This is an App which gets data from TMDB api and shows all the movies and series which you can filter and search. Right now I'm working on this project and it will be live after completion.",
+      "This is some what a clone of medium.com where user can sign-in and upload blogs which other users can read. In future, I'll be upgrading this project to use Rich Text Editor like quill for better user experience.",
     image: "/movie-app.webp",
-    github: "https://github.com/vaibhavbhardwaj201",
+    github: "hhttps://github.com/vaibhavbhardwaj201/vaibhav-agency",
     link: "#",
   },
   {
-    name: "Ecommerce App",
-    description: "In this app, I'll add all ecommerce functionality that you can find on any app like add to cart, search product, checkout etc.",
+    name: "Full-stack Personal portfolio next app",
+    description: "This is my personal-portfolio web app with realtime database to update and add experiences through admin pannel. And All the data will be fetch from MongoDB",
     image: "/ecommerce.avif",
-    github: "https://github.com/vaibhavbhardwaj201",
+    github: "https://github.com/vaibhavbhardwaj201/personal-portfolio",
     link: "/",
   },
   {
-    name: "Blog site",
-    description: "This is going to be my own Blogging site, where I'll share my thoughts, experiences, travel blogs, etc.",
+    name: "Infinite Scroll image gallery react app",
+    description: "This is an infinite scroll image gallery which is fetching images from an API and it has a search feature as well to search for the particular images you want.",
     image: "/blog.jpeg",
-    github: "https://github.com/vaibhavbhardwaj201",
+    github: "https://github.com/vaibhavbhardwaj201/vinted-homework",
     link: "/",
   },
 ]
@@ -79,11 +79,11 @@ const ProjectsSection = () => {
             </div>
           )
         })}
-        
+
       </div>
 
       <div className="py-10 px-5">
-        <p>*All these projects are not completed yet. I&apos;ll add these projects as soon as they will finish.</p>  
+        <p>*All these projects are not completed yet. I&apos;ll add these projects as soon as they will finish.</p>
       </div>
     </section>
   )
