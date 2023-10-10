@@ -44,15 +44,15 @@ const ProjectsSection = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
-                    <Link href={project.link}>
-                      <Image
-                        src={project.image}
-                        alt=""
-                        width={1000}
-                        height={1000}
-                        className="rounded-xl shadow-xl hover:opacity-70"
-                      />
-                    </Link>
+                    {/* <Link href={project.link}> */}
+                    <Image
+                      src={project.image}
+                      alt=""
+                      width={1000}
+                      height={1000}
+                      className="rounded-xl shadow-xl hover:opacity-70"
+                    />
+                    {/* </Link> */}
                   </div>
                   <div className="mt-8 md:w-1/2">
                     <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
@@ -66,12 +66,12 @@ const ProjectsSection = () => {
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
                       </Link>
-                      <Link href={project.link} target="_blank">
+                      {/* <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
@@ -83,7 +83,8 @@ const ProjectsSection = () => {
       </div>
 
       <div className="py-10 px-5">
-        <p>*Repository of portfolio app is private as of now and I am adding blog feature so that I can upload blog as well. After this I will deploy it</p>
+        <p>*Repository of portfolio app is private as of now and I am adding blog feature so that I can upload blog as well. After this I will deploy it.</p>
+        <p>More interesting projects are coming too :)</p>
       </div>
     </section>
   )
