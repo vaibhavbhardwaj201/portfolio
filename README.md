@@ -1,9 +1,6 @@
 # Tailwind CSS and Next.js Portfolio
 
 
-## How it works
-
-Fork or download the repo and change whatever you need to change for your needs.
 
 ## Running Locally
 
