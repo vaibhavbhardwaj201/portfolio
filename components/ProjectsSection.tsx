@@ -9,21 +9,21 @@ const projects = [
     name: "Blog App",
     description:
       "This is some what a clone of medium.com where user can sign-in and upload blogs which other users can read. In future, I'll be upgrading this project to use Rich Text Editor like quill for better user experience.",
-    image: "/movie-app.webp",
+    image: "/blog-app.png",
     github: "hhttps://github.com/vaibhavbhardwaj201/vaibhav-agency",
     link: "#",
   },
   {
     name: "Full-stack Personal portfolio next app",
     description: "This is my personal-portfolio web app with realtime database to update and add experiences through admin pannel. And All the data will be fetch from MongoDB",
-    image: "/ecommerce.avif",
+    image: "/portfolio.png",
     github: "https://github.com/vaibhavbhardwaj201/personal-portfolio",
     link: "/",
   },
   {
     name: "Infinite Scroll image gallery react app",
     description: "This is an infinite scroll image gallery which is fetching images from an API and it has a search feature as well to search for the particular images you want.",
-    image: "/blog.jpeg",
+    image: "/image-gallery.png",
     github: "https://github.com/vaibhavbhardwaj201/vinted-homework",
     link: "/",
   },
@@ -83,7 +83,7 @@ const ProjectsSection = () => {
       </div>
 
       <div className="py-10 px-5">
-        <p>*All these projects are not completed yet. I&apos;ll add these projects as soon as they will finish.</p>
+        <p>*Repository of portfolio app is private as of now and I am adding blog feature so that I can upload blog as well. After this I will deploy it</p>
       </div>
     </section>
   )
