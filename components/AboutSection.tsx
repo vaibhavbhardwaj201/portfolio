@@ -41,11 +41,6 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I am a student of Vilnius Gediminas Technical University, Vilnius.
-              Currently I&apos;m in my second year of Bachelor&apos; in Information Technology.
-            </p>
-            <br />
-            <p>
               I have a wide range of hobbies and passions that keep me busy.
               From reading, playing sports, traveling(which is my personal favourite btw),
               I am always seeking new experiences and love to keep myself
